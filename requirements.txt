@@ -1,0 +1,10 @@
+# GameDex - dependencias de Python (Python 3.10+)
+# Instalar con: pip install -r requirements.txt
+#
+# PySide6 incluye Qt6, el soporte de imágenes SVG usado por los temas,
+# pyside6-uic (compilar .ui), pyside6-rcc (compilar .qrc) y pyside6-designer.
+# Se exige >=6.7 porque la interfaz usa QIcon.ThemeIcon, introducido en esa versión.
+PySide6>=6.7
+
+# sqlite3, pathlib, hashlib, csv, uuid, shutil y datetime forman parte de la
+# biblioteca estándar de Python: no hace falta instalarlos.

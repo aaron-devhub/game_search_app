@@ -1,0 +1,72 @@
+QWidget { background-color: #f5f6f8; color: #1b1c20; }
+QLabel {
+    background-color: transparent;
+}
+QLineEdit, QComboBox, QSpinBox, QDateEdit {
+    background-color: #ffffff; color: #000000;
+    border: 1px solid #9a9da6; border-radius: 4px; padding: 3px 6px;
+}
+QComboBox QAbstractItemView { background-color: #ffffff; selection-background-color: #3d6fd8; selection-color: #ffffff; }
+QPushButton { background-color: #e6e8ec; border: 1px solid #9a9da6; border-radius: 4px; padding: 4px 10px; }
+QPushButton:hover   { background-color: #d9dce2; }
+QPushButton:pressed { background-color: #cdd0d7; }
+QPushButton:focus   { border: 2px solid #2a5bd7; }
+
+QFrame#tarjetaJuego { background-color: #ffffff; border: 1px solid #c3c6ce; border-radius: 8px; }
+QLabel#tituloCard  { font-size: 14px; font-weight: bold; color: #000000; }
+QLabel#detalleCard { color: #4a4d56; }
+QLabel#puntosCard  { color: #b07400; font-size: 14px; }
+QPushButton#btnBorrarCard { color: #b00020; }
+
+QScrollArea, QScrollArea > QWidget > QWidget { background-color: #f5f6f8; }
+QMenuBar, QMenu { background-color: #ececf0; }
+QMenu::item:selected, QMenuBar::item:selected { background-color: #3d6fd8; color: #ffffff; }
+
+QSpinBox, QDateEdit { padding-right: 24px; }
+
+QSpinBox::up-button, QDateEdit::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #9a9da6;
+    border-top-right-radius: 4px;
+    background-color: #e6e8ec;
+}
+QSpinBox::down-button, QDateEdit::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 20px;
+    border-left: 1px solid #9a9da6;
+    border-bottom-right-radius: 4px;
+    background-color: #e6e8ec;
+}
+QSpinBox::up-button:hover, QDateEdit::up-button:hover,
+QSpinBox::down-button:hover, QDateEdit::down-button:hover { background-color: #d9dce2; }
+
+QSpinBox::up-arrow, QDateEdit::up-arrow {
+    image: url(@ICONOS@/flecha_arriba_light.svg);
+    width: 10px; height: 10px;
+}
+QSpinBox::down-arrow, QDateEdit::down-arrow {
+    image: url(@ICONOS@/flecha_abajo_light.svg);
+    width: 10px; height: 10px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 22px;
+    border-left: 1px solid #9a9da6;
+}
+QComboBox::down-arrow {
+    image: url(@ICONOS@/flecha_abajo_light.svg);
+    width: 10px; height: 10px;
+}
+QPushButton#btnGuardar {
+    color: #1a4fc4;
+    font-weight: bold;
+}
+QPushButton#btnCancelar {
+    color: #b00020;
+    font-weight: bold;
+}

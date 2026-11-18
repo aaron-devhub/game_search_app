@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>icons/gamedex.png</file>
+  </qresource>
+  <qresource prefix="/images">
+    <file>images/Final_Fantasy_vii.png</file>
+    <file>images/Metal_Gear_Solid.png</file>
+    <file>images/Metroid_Prime_4.png</file>
+    <file>images/Patapon_Remastered.png</file>
+    <file>images/The_Legend_of_Zelda_Ocarina_of_Time.png</file>
+    <file>images/God_of_War_Ragnarok.png</file>
+    <file>images/Luigis_Mansion_3.png</file>
+    <file>images/Pokemon_Esmeralda.png</file>
+  </qresource>
+</RCC>
